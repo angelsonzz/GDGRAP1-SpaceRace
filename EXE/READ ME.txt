@@ -1,0 +1,10 @@
+Controls:
+W - Gas
+S - Brake
+A - Steer left
+D - Steer right
+
+Q - Night
+E - Day
+
+SPACE - Pause
