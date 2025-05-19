@@ -1,0 +1,28 @@
+Developer Comments
+
+March 5, 2025 22:07
+- I am trying to implement the textures into the FPS mode
+- Right now, it is still buggy. It does not completely render the whole model (Because you didnt enable glEnable(GL_DEPTH_TEST) and | GL_DEPTH_BUFFER_BIT)
+
+March 5, 2025 23:35
+- Things are working now
+- There is now a Point Light class
+- I'll probably get to work on a working cart some other time
+
+March 7, 2025
+- forgot to add here xd
+- basically wot i said in gc, idk y kart is using camera movement stuff when we could use translation in model
+- I made kart child of model, but camera is not following the player anymore and its 
+also running more smoothly. 
+- the above mentioned is not in the main code. I just put it in original code cuz idk if u want that or just retain the old code
+
+March 13, 2025 (NOTES)
+- Its a stra*ght track and the ghost cars go at constant speed
+- plane with the road will be provided in one of the lessons
+- First Person POV can be anywhere in front of the car
+- Third Person POV must have camera rotation (Mouse Input)
+- SPACE start/stop ghost karts
+- Bonus +5 if presented April 3
+- Contributions for documentation
+- conditional statement in the fragshader to indicate which texture to apply
+- Might need different shader files
